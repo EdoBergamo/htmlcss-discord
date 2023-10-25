@@ -119,3 +119,33 @@ h2 { margin-bottom: 40px; font-size: 40px; }
 }
 
 a.btn.btn-blue { font-size: 15px; padding: 15px 20px; background-color: var(--bg-topbar); color: var(--text-white); margin-bottom: 150px; }
+
+/* Footer */
+footer { background-color: var(--bg-footer); }
+
+.box-quattro {
+    display: flex;
+    width: 1240px;
+    padding: 10px 0 40px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box-quattro:first-child { flex-grow: 1; }
+
+.box-quattro .footer__box:nth-child(2),
+.box-quattro .footer__box:nth-child(3),
+.box-quattro .footer__box:nth-child(4),
+.box-quattro .footer__box:nth-child(5) { width: 215px; }
+
+.foot-footer { width: 1250px; margin: 30px auto 0; }
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.foot-footer div.logo__footer,
+.foot-footer div.button__footer { padding: 10px 15px; }
